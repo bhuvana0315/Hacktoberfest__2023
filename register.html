@@ -1,0 +1,100 @@
+<html>
+<head>
+<style>
+label{
+color:purple;
+font-size:30;
+}
+input,option{
+color:red;
+background-color:lightgreen;
+border:dotted blue;
+font-size:20
+}
+select
+{
+color:red;
+background-color:lightgreen;
+border:dotted blue;
+font-size:20
+}
+textarea
+{
+color:darkgreen;
+background-color:yellow;
+border:dotted green;
+font-size:10
+}
+</style>
+</head>
+<body bgcolor="pink">
+<form action="success.html" method="post">
+<table align="center">
+<tr>
+<td><label for="uname">Username:</label></td>
+<td><input type="text" id="uname"></td>
+</tr>
+<tr>
+<td><label>Password:</label></td>
+<td><input type="password"></td>
+</tr>
+<tr>
+<td><label>Confirm Password:</label></td>
+<td><input type="password"></td>
+</tr>
+<tr>
+<td><label>Email:</label></td>
+<td><input type="email"></td>
+</tr>
+<tr>
+<td><label>Gender</label></td>
+<td>
+<input type="radio" name="g">Female &nbsp;&nbsp;&nbsp;
+<input type="radio"name="g">Male</td>
+</tr>
+<tr>
+<td><label>Languages Known:</label></td>
+<td>
+<input type="checkbox" name="cb"><label>Hindi</label>&nbsp;&nbsp;&nbsp;
+<input type="checkbox"name="g"><label>Telugu</label>&nbsp;&nbsp;&nbsp;
+<input type="checkbox"name="g"><label>English</label></td>
+</tr>
+<tr>
+<td><label>DOB:</label></td>
+<td><select name="dd">
+<option value="dd">DD</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+</select>&nbsp;&nbsp;&nbsp;
+<select name="mm">
+<option value="mm">MM</option>
+<option value="Jan">Jan</option>
+<option value="Feb">Feb</option>
+<option value="March">March</option>
+</select>&nbsp;&nbsp;&nbsp;
+<select name="yy">
+<option value="yy">YY</option>
+<option value="1990">1990</option>
+<option value="1991">1991</option>
+<option value="1992">1992</option>
+</select></td>
+</tr>
+<tr>
+<td>
+<label>Address:</label>
+</td>
+<td><textarea rows="5" cols="30">
+</textarea>
+</td>
+</tr>
+<tr>
+<td><input type="submit" value="Register"></td>
+<td><input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
